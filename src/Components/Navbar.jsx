@@ -1,39 +1,48 @@
 import React from "react";
 import { FaSuitcase, FaUser } from "react-icons/fa";
+import Airplane from "../assets/airplane.png";
+import hotel from "../assets/hotel.png";
+import train from "../assets/train.png";
+import transport from "../assets/transport.png";
+import bus from "../assets/bus.png";
+import beach from "../assets/beach.png";
+import currencyExchange from "../assets/currency-exchange.png";
+import shield from "../assets/shield.png";
+
 
 const Navbar = () => {
   return (
     <div className="Navbar flex flex-row justify-between items-center bg-gray-200 px-5 py-1">
       <div className="flex flex-row gap-4">
         <a className="flex flex-row gap-1 items-center" href="#">
-          <img src="src\assets\airplane.png" alt="" />Flights
+          <img src={Airplane} alt="" />Flights
         </a>
         <a className="flex flex-row gap-1 items-center" href="#">
-          <img src="src\assets\hotel.png" alt="" />
+          <img src={hotel} alt="" />
           Hotels
         </a>
         <a className="flex flex-row gap-1 items-center" href="#">
-          <img src="src\assets\train.png" alt="" />
+          <img src={train} alt="" />
           Trains
         </a>
         <a className="flex flex-row gap-1 items-center" href="#">
-          <img src="src\assets\transport.png" alt="" />
+          <img src={transport} alt="" />
           Cabs
         </a>
         <a className="flex flex-row gap-1 items-center" href="#">
-          <img src="src\assets\bus.png" alt="" />
+          <img src={bus} alt="" />
           Bus
         </a>
         <a className="flex flex-row gap-1 items-center" href="#">
-          <img src="src\assets\beach.png" alt="" />
+          <img src={beach} alt="" />
           Holiday
         </a>
         <a className="flex flex-row gap-1 items-center" href="#">
-          <img src="src\assets\currency-exchange.png" alt="" />
+          <img src={currencyExchange} alt="" />
           Forex
         </a>
         <a className="flex flex-row gap-1 items-center" href="#">
-          <img src="src\assets\shield.png" alt="" />
+          <img src={shield} alt="" />
           Insurance
         </a>
       </div>

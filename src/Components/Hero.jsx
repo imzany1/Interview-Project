@@ -1,13 +1,15 @@
 import React from "react";
 import { CiAirportSign1 } from "react-icons/ci";
 import FlightData from "./FlightData";
+import indigo from "../assets/Indigo.png";
+
 
 const Hero = () => {
   const flights = [
     {
       id: 1,
       airline: "Indigo",
-      icon: "src/assets/Indigo.png",
+      icon: {indigo},
       from: "Delhi",
       to: "Mumbai",
       fare: 2000,
@@ -15,7 +17,7 @@ const Hero = () => {
     {
       id: 1,
       airline: "Indigo",
-      icon: "src/assets/Indigo.png",
+      icon: {indigo},
       from: "Delhi",
       to: "Mumbai",
       fare: 2000,
@@ -23,7 +25,7 @@ const Hero = () => {
     {
       id: 1,
       airline: "Indigo",
-      icon: "src/assets/Indigo.png",
+      icon: {indigo},
       from: "Delhi",
       to: "Mumbai",
       fare: 2000,
@@ -31,7 +33,7 @@ const Hero = () => {
     {
       id: 1,
       airline: "Indigo",
-      icon: "src/assets/Indigo.png",
+      icon: {indigo},
       from: "Delhi",
       to: "Mumbai",
       fare: 2000,
@@ -39,7 +41,7 @@ const Hero = () => {
     {
       id: 1,
       airline: "Indigo",
-      icon: "src/assets/Indigo.png",
+      icon: {indigo},
       from: "Delhi",
       to: "Mumbai",
       fare: 2000,
