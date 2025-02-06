@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+.Navbar img{
+    width: 20px;
+    height: 20px;
+}
+
+label{
+    font-size: 0.8rem;
+}
+.discounts input[type="Checkbox"]{
+    width: 15px;
+    height: 15px;
+}
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
