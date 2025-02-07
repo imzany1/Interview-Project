@@ -15,7 +15,7 @@ const Hero = () => {
       fare: 2000,
     },
     {
-      id: 1,
+      id: 2,
       airline: "Indigo",
       icon: {indigo},
       from: "Delhi",
@@ -23,7 +23,7 @@ const Hero = () => {
       fare: 2000,
     },
     {
-      id: 1,
+      id: 3,
       airline: "Indigo",
       icon: {indigo},
       from: "Delhi",
@@ -31,7 +31,7 @@ const Hero = () => {
       fare: 2000,
     },
     {
-      id: 1,
+      id: 4,
       airline: "Indigo",
       icon: {indigo},
       from: "Delhi",
@@ -39,7 +39,7 @@ const Hero = () => {
       fare: 2000,
     },
     {
-      id: 1,
+      id: 5,
       airline: "Indigo",
       icon: {indigo},
       from: "Delhi",
@@ -58,7 +58,7 @@ const Hero = () => {
           </p>
         </div>
         <div className="container w-full flex gap-2 mt-2">
-          <div className="left w-[20%] flex flex-col justify-around gap-2">
+          <div className="left w-[20%] flex flex-col gap-2">
             <div className="advert rounded-lg overflow-hidden pb-2 flex flex-col bg-white drop-shadow-md mt-2 uppercase">
               <img src="src/assets/Flight image.png" alt="" />
               <p className="text-xs px-2">tap to get 30% discount</p>
